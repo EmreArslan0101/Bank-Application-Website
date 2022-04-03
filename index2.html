@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body id="bank-intrf">
+    <h1 class="l-color">APPBANK</h1>
+    <section class="cntrzr add1">
+        <div class="userInfo add1">
+            <p class="userNamee" id="activeUserr">Name:</p>
+            <p class="amountOfMoney" id="balancee">Balance: <span style="color:rgb(0, 150, 0)">$</span></p>
+        </div>
+        <div class="amountInput cntrzr">
+            <p class="add2" id="amountOfCash">Amount:</p>
+            <input type="number" id="balanceChange">
+            <i class="fa-solid fa-dollar-sign dollarsign"></i>
+        </div>
+        <div class="cshbtndiv ">
+            <button class="l-color" onclick="addCash()">Add cash</button>
+            <button class="l-color" onclick="cashOut()">Cash out</button>
+            <button class="l-color" onclick="logout()">Log out</button>
+        </div>
+    </section>
+    <footer></footer>
+    <script src="app.js"></script>
+</body>
+</html>
